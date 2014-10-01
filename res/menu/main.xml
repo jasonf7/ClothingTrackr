@@ -4,15 +4,24 @@
     tools:context="com.example.clothingtrackr.MainActivity" >
 
     <item 
-        android:id="@+id/action_search"
-        android:icon="@drawable/ic_action_search"
-        android:title="@string/action_search"
-        android:showAsAction="ifRoom"/>
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_add" />
     
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never"/>
+     <item
+        android:id="@+id/action_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom"/>
+    
+    <item 
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="@string/action_search" />
+    
+   
 
 </menu>
