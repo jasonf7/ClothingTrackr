@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ClothingTrackr</string>
+    <string name="app_name">Clothing TrackR</string>
     <string name="hello_world">NOOOO</string>
     <string name="action_search">Search Clothing</string>
     <string name="action_add">Add Clothing</string>
