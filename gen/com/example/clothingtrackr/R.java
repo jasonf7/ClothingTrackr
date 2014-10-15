@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int category_array=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1089,35 +1092,36 @@ containing a value of this type.
         public static final int btn_cab_done_pressed_clothingtrackr=0x7f020060;
         public static final int cab_background_bottom_clothingtrackr=0x7f020061;
         public static final int cab_background_top_clothingtrackr=0x7f020062;
-        public static final int ic_action_discard=0x7f020063;
-        public static final int ic_action_edit=0x7f020064;
-        public static final int ic_action_new=0x7f020065;
-        public static final int ic_action_overflow=0x7f020066;
-        public static final int ic_action_search=0x7f020067;
-        public static final int ic_launcher=0x7f020068;
-        public static final int list_focused_clothingtrackr=0x7f020069;
-        public static final int list_pressed_clothingtrackr=0x7f02006a;
-        public static final int menu_dropdown_panel_clothingtrackr=0x7f02006b;
-        public static final int progress_bg_clothingtrackr=0x7f02006c;
-        public static final int progress_horizontal_clothingtrackr=0x7f02006d;
-        public static final int progress_primary_clothingtrackr=0x7f02006e;
-        public static final int progress_secondary_clothingtrackr=0x7f02006f;
-        public static final int selectable_background_clothingtrackr=0x7f020070;
-        public static final int spinner_ab_default_clothingtrackr=0x7f020071;
-        public static final int spinner_ab_disabled_clothingtrackr=0x7f020072;
-        public static final int spinner_ab_focused_clothingtrackr=0x7f020073;
-        public static final int spinner_ab_pressed_clothingtrackr=0x7f020074;
-        public static final int spinner_background_ab_clothingtrackr=0x7f020075;
-        public static final int tab_indicator_ab_clothingtrackr=0x7f020076;
-        public static final int tab_selected_clothingtrackr=0x7f020077;
-        public static final int tab_selected_focused_clothingtrackr=0x7f020078;
-        public static final int tab_selected_pressed_clothingtrackr=0x7f020079;
-        public static final int tab_unselected_clothingtrackr=0x7f02007a;
-        public static final int tab_unselected_focused_clothingtrackr=0x7f02007b;
-        public static final int tab_unselected_pressed_clothingtrackr=0x7f02007c;
+        public static final int clothing_default=0x7f020063;
+        public static final int ic_action_discard=0x7f020064;
+        public static final int ic_action_edit=0x7f020065;
+        public static final int ic_action_new=0x7f020066;
+        public static final int ic_action_overflow=0x7f020067;
+        public static final int ic_action_search=0x7f020068;
+        public static final int ic_launcher=0x7f020069;
+        public static final int list_focused_clothingtrackr=0x7f02006a;
+        public static final int list_pressed_clothingtrackr=0x7f02006b;
+        public static final int menu_dropdown_panel_clothingtrackr=0x7f02006c;
+        public static final int progress_bg_clothingtrackr=0x7f02006d;
+        public static final int progress_horizontal_clothingtrackr=0x7f02006e;
+        public static final int progress_primary_clothingtrackr=0x7f02006f;
+        public static final int progress_secondary_clothingtrackr=0x7f020070;
+        public static final int selectable_background_clothingtrackr=0x7f020071;
+        public static final int spinner_ab_default_clothingtrackr=0x7f020072;
+        public static final int spinner_ab_disabled_clothingtrackr=0x7f020073;
+        public static final int spinner_ab_focused_clothingtrackr=0x7f020074;
+        public static final int spinner_ab_pressed_clothingtrackr=0x7f020075;
+        public static final int spinner_background_ab_clothingtrackr=0x7f020076;
+        public static final int tab_indicator_ab_clothingtrackr=0x7f020077;
+        public static final int tab_selected_clothingtrackr=0x7f020078;
+        public static final int tab_selected_focused_clothingtrackr=0x7f020079;
+        public static final int tab_selected_pressed_clothingtrackr=0x7f02007a;
+        public static final int tab_unselected_clothingtrackr=0x7f02007b;
+        public static final int tab_unselected_focused_clothingtrackr=0x7f02007c;
+        public static final int tab_unselected_pressed_clothingtrackr=0x7f02007d;
     }
     public static final class id {
-        public static final int action_add=0x7f05003d;
+        public static final int action_add=0x7f050043;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1129,12 +1133,18 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_search=0x7f05003f;
-        public static final int action_sort=0x7f05003e;
+        public static final int action_search=0x7f050045;
+        public static final int action_settings=0x7f050046;
+        public static final int action_sort=0x7f050044;
         public static final int activity_chooser_view_content=0x7f050025;
+        public static final int add_clothing_image_button=0x7f05003d;
+        public static final int add_clothing_submit_button=0x7f050042;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int category_spinner=0x7f050041;
         public static final int checkbox=0x7f05002d;
+        public static final int clothing_desc_field=0x7f05003f;
+        public static final int clothing_name_field=0x7f05003e;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
@@ -1156,6 +1166,7 @@ containing a value of this type.
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
         public static final int pager=0x7f05003c;
+        public static final int preference_seekbar=0x7f050040;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
@@ -1173,9 +1184,9 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int sort_opt_clean=0x7f050040;
-        public static final int sort_opt_type=0x7f050041;
-        public static final int sort_opt_weather=0x7f050042;
+        public static final int sort_opt_clean=0x7f050047;
+        public static final int sort_opt_type=0x7f050048;
+        public static final int sort_opt_weather=0x7f050049;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
@@ -1236,14 +1247,16 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int fragment_closet=0x7f030019;
-        public static final int fragment_settings=0x7f03001a;
-        public static final int fragment_what_to_wear=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int activity_new_clothing=0x7f030019;
+        public static final int fragment_closet=0x7f03001a;
+        public static final int fragment_settings=0x7f03001b;
+        public static final int fragment_what_to_wear=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
-        public static final int sort_menu=0x7f0c0001;
+        public static final int main=0x7f0d0000;
+        public static final int new_clothing=0x7f0d0001;
+        public static final int sort_menu=0x7f0d0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1288,12 +1301,14 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_add=0x7f0a0010;
         public static final int action_search=0x7f0a000f;
+        public static final int action_settings=0x7f0a0016;
         public static final int action_sort=0x7f0a0011;
         public static final int app_name=0x7f0a000d;
         public static final int hello_world=0x7f0a000e;
         public static final int tab_closet=0x7f0a0012;
         public static final int tab_settings=0x7f0a0014;
         public static final int tab_what_to_wear=0x7f0a0013;
+        public static final int title_activity_new_clothing=0x7f0a0015;
     }
     public static final class style {
         public static final int ActionBar_Solid_Clothingtrackr=0x7f0b008e;

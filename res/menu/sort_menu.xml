@@ -8,8 +8,4 @@
 	    <item android:id="@+id/sort_opt_weather"
 	          android:title="Weather" />
     </group>
-    
-    
-    
-
 </menu>

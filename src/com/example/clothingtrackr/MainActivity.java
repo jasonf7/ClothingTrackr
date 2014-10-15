@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBar.Tab;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.PopupMenu;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -94,6 +95,11 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         }
         else if(id == R.id.action_search) {
         	return true;
+        }
+        else if(id == R.id.action_add) {
+        	Intent intent = new Intent(this, NewClothing.class);
+            startActivity(intent);
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
